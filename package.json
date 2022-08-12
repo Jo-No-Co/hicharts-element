@@ -1,18 +1,11 @@
 {
-  "name": "vite-vue-starter",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "highcharts",
+  "version": "0.0.1",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.2.37"
+    "build": "weweb build",
+    "serve": "weweb serve"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^3.0.2",
-    "vite": "^3.0.6"
+    "@weweb/cli": "latest"
   }
 }
